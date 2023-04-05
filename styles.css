@@ -1,0 +1,22 @@
+/* 
+1. grab colors 
+    e5d4d3
+    e8e5de
+    b0bcaf
+2. grab fonts
+3. grab logos
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.btn {
+    border-radius: 0 ;
+    background-color: #212529;
+}
+
+.form-control {
+    min-width: 350px;
+}
