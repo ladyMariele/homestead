@@ -31,6 +31,7 @@ body {
 
 img {
     width: 200px;
+    filter: grayscale(100%) contrast(140%);
 }
 
 h3 {
@@ -48,6 +49,16 @@ h3 {
     background-color: #e8e5de;
     padding: 0;
     margin: 0;
+}
+
+.testimonial-two {
+    background-color: #b0bcaf;
+}
+
+.klav {
+    font-family: "Playfair Display";
+    font-weight: bolder;
+    font-size: larger;
 }
 /* .headline-par {
     width: 400px;
