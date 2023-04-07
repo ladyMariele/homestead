@@ -3,11 +3,7 @@
     e5d4d3
     e8e5de
     b0bcaf
-2. grab fonts
-3. grab logos
 
-- add 4 icon in features---
-- change par in features---
 - add grid system in accordion
 - change content accordion
 */
@@ -21,7 +17,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid gray 1px;
+    /* border: solid gray 1px; */
 }
 
 body {
@@ -62,7 +58,6 @@ h3 {
 
 .bg-color-2 {
     background-color: #e5d4d3;
-    /* width: 100%; */
 }
 
 .klav {
