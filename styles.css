@@ -1,12 +1,4 @@
-/* 
-1. grab colors 
-    e5d4d3
-    e8e5de
-    b0bcaf
 
-- add grid system in accordion
-- change content accordion
-*/
 
 @font-face {
     font-family:metropolis;
@@ -14,18 +6,20 @@
 }
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; */
     /* border: solid gray 1px; */
 }
 
 body {
-    /* text-align: center; */
     font-family: "metropolis", sans-serif;
     color: #5c5a5a;
 }
 
+p {
+    color: #5c5a5a;
+}
 .navbar {
     background-color: white !important;
 }
@@ -48,8 +42,6 @@ h3 {
 
 #logo-bar {
     background-color: #e8e5de;
-    padding: 0;
-    margin: 0;
 }
 
 .bg-color-1 {
