@@ -6,15 +6,15 @@
 }
 
 * {
-    /* box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
-    padding: 0; */
+    padding: 0;
     /* border: solid gray 1px; */
 }
 
 body {
     font-family: "metropolis", sans-serif;
-    color: #5c5a5a;
+    /* color: #5c5a5a; */
 }
 
 p {
@@ -40,7 +40,7 @@ h3 {
     background-color: #212529;
 }
 
-#logo-bar {
+.bg-color-3 {
     background-color: #e8e5de;
 }
 

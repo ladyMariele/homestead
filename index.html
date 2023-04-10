@@ -52,7 +52,7 @@
     </section>
         
     <!-- [logo bar] -->
-    <section id="logo-bar" class="py-5 mb-5">
+    <section id="logo-bar" class="py-5 mb-5 bg-color-3">
         <div class="pb-3">
             <h3> Sed ut perspiciatis unde omnis
             </h3>
@@ -359,91 +359,103 @@
     </section>
       
       <!-- [CTA Form] -->
-    <form id="form" class="container">
+    <form id="form" class="container text-start bg-color-3 p-5 my-5 rounded-3">
 
-        <div class="">
+        <div class="d-flex flex-column">
 
             <div class="">
-                <p><strong>Your Information</strong></p>
-            </div>
-            
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="First name" required>
-            </div>
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="Last name" required>
-            </div>
-            <br>
-            <div class="col d-inline-flex p-2">
-                <input type="email" class="form-control" placeholder="Email" required>
-            </div>
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="Job Title" required>
+                <strong>Your Information</strong>
             </div>
 
-            <p><strong>Company Information</strong></p>
+            <div class="row pb-3">
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="Last name" required>
+                </div>
+                <div class="col-lg-6 p-2">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="Job Title" required>
+                </div>
+            </div>
 
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="Company name" required>
-            </div>
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="Website URL" required>
-            </div>
-            <br>
-            <div class="col d-inline-flex p-2">
-                <input type="email" class="form-control" placeholder="Annual Revenue" required>
-            </div>
-            <div class="col d-inline-flex p-2">
-                <input type="text" class="form-control" placeholder="Average monthly spend" required>
+            <div class=""">
+                <strong>Company Information</strong>
             </div>
 
-            <div class="w-100">
-                <div class="text-center mx-auto ">
+            <div class="row pb-3"> 
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="Company name" required>
+                </div>
+                
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="Website URL" required>
+                </div>
+                <br>
+                <div class="col-lg-6 p-2">
+                    <input type="email" class="form-control" placeholder="Annual Revenue" required>
+                </div>
+                <div class="col-lg-6 p-2">
+                    <input type="text" class="form-control" placeholder="Average monthly spend" required>
+                </div>
+            </div>
+
+            <div class="pb-3">
+                <div class="pb-3">
                     <textarea name="" id="" cols="20" rows="4" class="form-control" placeholder="How did you hear about Homestead?" required></textarea>
                 </div>
                 <div class="">
-                    <textarea name="" id="" cols="20" rows="4" class="form-control" placeholder="How did you hear about Homestead?" required></textarea>
+                    <textarea name="" id="" cols="20" rows="4" class="form-control" placeholder="What are you looking for in a growth marketing partner?" required></textarea>
                 </div>
             </div>
-            
+        
+        </div>
 
-            <p><strong>What services are you interested in?</strong></p>
+        <div class="py-2">
+            <div class="py-3">
+                <strong>What services are you interested in?</strong>
+            </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                Paid Social
+                <p>Paid Social </p>
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                Paid Search
+                <p>Paid Search </p>
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                    Email/SMS
+                <p>Email/SMS </p>
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                    UGC
+                <p>UGC </p>
                 </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                Landing Pages
+                <p>Landing Pages </p>
                 </label>
             </div>
             
-            <div class=""></div>
+            <div class="pt-2">
                 <button type="button" class="btn btn-outline-light border-dark btn-sm">Submit →</button>
             </div>
 
-         </div>
+        </div>
+        
+
 
     </form> 
       
