@@ -4,6 +4,14 @@
     src: url(fonts/metropolis.regular.otf);
 }
 
+::selection {
+    background-color: #e5d4d3;
+  }
+
+  ::-moz-selection {
+    background-color: #e5d4d3;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
