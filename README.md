@@ -7,6 +7,6 @@ This is a 6-section static webpage that I coded with HTML5 and Bootstrap5.
 ## it is
 - responsive to any screen device (mobile, tablet, desktop)
 - SEO optimized
-- designed to be minimalist and easy to navigate webpage
+- designed to be minimalist and easy to navigate 
 
 #### visit the live site [here](https://ladymariele.github.io/homestead/).
